@@ -2,9 +2,13 @@
 ## OS X El Capitan 10.11.15  
 
 ### Not Working
- - Sleep causes sound to not work on wakeup
-   - TODO: Fix this using RehabMan's CodecCommander and hda-verb
- - GTX860M is disabled in my DSDT to conserve on power.
+ - GTX860M is disabled in my DSDT to conserve on power. (Nvidia Optimus is not yet supported so might as well disable it.)
+
+### Maybe working / Work in Progress.
+  - Thunderbolt is detected but no DROM forces thunderbolt v2. (This laptop is Thunderbolt v1)
+    - The only device I have tested is a My Passport Pro and it was detected correctly in System Report but no disk drive was available.
+  - Sleep causes sound to not work on wakeup
+    - TODO: Fix this using RehabMan's CodecCommander and hda-verb
  
 ### Working
 Everything else. Please let me know if anything else is not working.
